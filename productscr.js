@@ -1,0 +1,27 @@
+$(".np").hover(function()
+{
+	console.log("me");
+	$(this).toggleClass("steelhov");
+},
+function()
+{
+	$(this).toggleClass("steelhov");
+});
+$(".yp").hover(function()
+{
+	console.log("me");
+	$(this).toggleClass("steelhovyp");
+},
+function()
+{
+	$(this).toggleClass("steelhovyp");
+});
+$(".pp").hover(function()
+{
+	console.log("me");
+	$(this).toggleClass("steelhovp");
+},
+function()
+{
+	$(this).toggleClass("steelhovp");
+});
